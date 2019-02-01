@@ -1,0 +1,439 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing:border-box;
+}
+[class*="col-"]{
+    padding:15px; float: left;width: 100%;
+}
+@media only screen and (min-width:600px){
+    .col-s-1 {width:8.33%;}
+    .col-s-2 {width:16.66%;}
+    .col-s-3 {width:25%;}
+    .col-s-4 {width:33.33%;}
+    .col-s-5 {width:41.66%;}
+    .col-s-6 {width:50%;}
+    .col-s-7 {width:58.33%;}
+    .col-s-8 {width:66.66%;}
+    .col-s-9 {width:75%;}
+    .col-s-10 {width:83.33%;}
+    .col-s-11 {width:91.66%;}
+    .col-s-12 {width:100%;}
+    
+}
+    @media only screen and (min-width: 768px){
+        /* for desktop*/
+    .col-1 {width:8.33%;}
+    .col-2 {width:16.66%;}
+    .col-3 {width:25%;}
+    .col-4 {width:33.33%;}
+    .col-5 {width:41.66%;}
+    .col-6 {width:50%;}
+    .col-7 {width:58.33%;}
+    .col-8 {width:66.66%;}
+    .col-9 {width:75%;}
+    .col-10 {width:83.33%;}
+    .col-11 {width:91.66%;}
+    .col-12 {width:100%;}
+    }
+
+   div.menu{
+    width:100%;
+    background-color:rgb(137, 192, 255);
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    
+   }
+   div.menu ul{
+       list-style-type:none;
+        overflow:hidden;
+        /* padding:0;
+        margin:0; */
+   }
+
+   div.menu li{
+       float:right;
+   }
+
+   div.menu li a{
+       text-decoration:none;
+       color:black;
+       margin-top: 50px;
+       text-align:center;
+       padding:18px;
+       font-size:20px;
+       display:black;
+   }
+
+   div.menu li a:hover{
+        background: white;
+        color:rgb(130, 199, 255);
+        border:2px solid blue;
+   }
+
+   div.menu img{
+       width:30px;
+       height:auto;
+       
+   }
+  
+   div.menu h1{
+       float:left;
+       margin-left:20px;
+       font-size:20px;
+   }
+
+   div.header{
+       width:100%;
+       height:800px;
+       background-image: url("hz.png");
+       background-position: center;
+       background-size: cover;
+       float:left;
+       
+   }
+
+ div.header img{
+     width:150px;
+    height:auto;
+    margin-left:650px;
+    margin-top:260px;
+ }
+
+ div.header h1{
+     text-align: center;
+     color:black;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:50px;
+ }
+   
+
+   div.tentang{
+       width:100%;
+       height:400px;
+       padding:0;
+       float:left;
+       margin-top:20px;
+   }
+   
+   div.tentang .right{
+       width:60%;
+       height: 100%;
+       float:right;
+   }
+
+   div.tentang .right h1{
+    text-align:center;
+    text-transform: uppercase; /*Huruf kapital*/
+    font-size: 40px;
+    font-family:"sans-serif";
+    font-weight:20;
+    padding-right: 10px;
+    color:rgb(7, 40, 131);
+    border-bottom:4px solid lightblue;
+   }
+
+
+   div.tentang .right p{
+    font-size:20px;
+    color:grey;
+    text-align: left;
+   }
+
+   div.tentang .left{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+div.tentang  .left img{
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border:15px solid rgb(107, 189, 255);
+    border-radius:50%; /*border melengkung*/
+    border-style: double;
+
+}
+
+
+div.wisata{
+    width:100%;
+    height:1170;
+    margin-top:20px;
+    background:rgb(0, 51, 161);
+    text-align:center;
+}
+
+div.wisata h1{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    font-family:"broadway";
+}
+
+div.wisata .alam{
+    width: 100%;
+    height:400px;
+    padding:0;
+    float:left;
+    margin-top:20px;
+}
+
+div.wisata .alam .left{
+    width:50%;
+    height: 100%;
+    float:left;
+}
+
+div.wisata .alam .left  img{
+    width: 400px;
+    height: 300px;
+    border-radius:20%;
+    margin-top:20px;
+    margin-left:50px;
+    border-style: groove;
+    margin-bottom:15px;
+    border:5px solid white;
+}
+
+
+div.wisata .alam .left p{
+    font-size:20px;
+    color:white;
+    margin-top:15px;
+    width: 500px;
+    margin-left:130px;
+    text-align:justify;
+   
+}
+div.wisata .alam .right{
+    width:50%;
+    height: 100%;
+    float:right;
+}
+
+div.wisata .alam .right img{
+    width: 400px;
+    height: 300px;
+    border-radius:20%;
+    margin-top:20px;
+    margin-right:50px;
+    border-style: groove;
+    margin-bottom:15px;
+    border:5px solid white;
+}
+
+
+div.wisata .alam .right p{
+    font-size:20px;
+    color:white;
+    margin-top:15px;
+    width: 500px;
+    margin-left:130px;
+    text-align:justify;
+   
+}
+div.budaya{
+    width:100%;
+    height:auto; 
+    margin-top:30px;
+}
+
+div.budaya h1{
+    text-align:center;
+    font-size:30px;
+    color:rgb(2, 2, 109);
+    margin-bottom:30px;
+}
+
+div.budaya .tentang{
+    width:100%;
+    height:400px;
+    padding:0;
+    float:left;
+    margin-top:20px;
+}
+
+div.budaya .tentang .left{
+    width:60%;
+    height: 100%;
+    float:right;
+
+}
+
+div.budaya .tentang .left h1{
+ text-align:left;
+ text-transform: uppercase; /*Huruf kapital*/
+ font-size: 20px;
+ font-family:"sans-serif";
+ font-weight:20;
+ padding-right: 10px;
+ color:rgb(0, 48, 179);
+ border-left:5px solid rgb(147, 190, 255);
+ padding-left:10px;
+ margin-top:100px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+div.budaya .tentang .left p{
+ font-size:20px;
+ color:black;
+ text-align: left;
+
+}
+
+div.budaya .tentang .right{
+ width: 40%;
+ height: 100%;
+ float: left;
+}
+
+div.budaya .tentang  .right img{
+ width: 390px;
+ height: 300px;
+ margin-top: 30px;
+ margin-left: 100px;
+ border:10px double rgb(137, 192, 255);;
+ border-radius:20%; /*border melengkung*/
+}
+
+
+div.budaya h1{
+    text-align:center;
+    font-size:30px;
+    color:rgb(119, 119, 255);
+    margin-bottom:30px;
+    margin-top:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.budaya .dua{
+    width:100%;
+    height:400px;
+    padding:0;
+    float:left;
+    margin-top:20px;
+}
+
+div.budaya .dua .left{
+    width:60%;
+    height: 100%;
+    float:left;
+}
+
+div.budaya .dua .left h1{
+ text-align:right;
+ text-transform: uppercase; /*Huruf kapital*/
+ font-size: 20px;
+ font-family:"sans-serif";
+ font-weight:20;
+ padding-right: 10px;
+ color:rgb(0, 48, 179);
+ border-right:5px solid rgb(147, 190, 255);
+ padding-left:10px;
+ margin-top:5px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+div.budaya .dua .left p{
+ font-size:20px;
+ color:black;
+ text-align: left;
+
+}
+
+div.budaya .dua .right{
+ width: 40%;
+ height: 100%;
+ float: right;
+}
+
+div.budaya .dua  .right img{
+ width: 390px;
+ height: 300px;
+ margin-top: 30px;
+ margin-left: 100px;
+ border:10px double rgb(137, 192, 255);
+ border-radius:20%; /*border melengkung*/
+ margin-top:-30px;
+}
+
+
+div.makanan{
+    width:100%;
+    height:auto;
+    margin-top:-90px;
+    padding:0;
+    background:rgb(0, 25, 136); 
+    text-align:center;
+}
+
+div.makanan h1{
+    text-align :center;
+    color: white;
+    font-size:30px;
+    border-bottom :4px solid white;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.makanan .box{
+    width:70%;
+    height:auto;
+    text-align:center;
+}
+
+div.makanan .box img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    margin:50px;
+    display:flex;
+    margin-left:600px;
+    margin-bottom:5px;
+    border:10px double white;
+}
+
+div.makanan .box h3{
+    text-align:center;
+    color:rgb(113, 171, 238);
+    font-size:20px;
+    margin-left:450px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+div.makanan .deskripsi{
+    margin-top:10px;
+    font-size:17px;
+    text-align:justify;
+    padding-bottom: 10px;
+    color:white;
+    MARGIN-LEFT:450px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.text-white{color: white; }
+
+div.copy{
+    width: 100%;
+    height: 70px;
+    background: black;
+    
+
+}
+
+div.copy h3{
+    font-size : 20px;
+    color:white;
+    text-align:center;
+    padding: 14px;
+}
+
